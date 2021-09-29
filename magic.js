@@ -20,10 +20,10 @@ $(document).ready(function(){
         if(e.which==119) {
             if(flag) {
                 flag = false;
-                $img.atr('src', cars[0]);
+                $img.attr('src', cars[0]);
             } else {
                 flag = true;
-                $img.atr('src', cars[1]);
+                $img.attr('src', cars[1]);
             }
         }
     })
